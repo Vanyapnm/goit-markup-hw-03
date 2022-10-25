@@ -27,6 +27,11 @@ body {
   margin-right: auto;
 }
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 img {
   display: block;
 }
@@ -39,6 +44,10 @@ p {
   padding: 0;
   margin: 0;
   list-style: none;
+}
+
+header {
+  border-bottom: 1px Solid #ececec;
 }
 
 /* logo */
@@ -60,7 +69,6 @@ p {
 .main-nav {
   display: flex;
   align-items: center;
-  border-bottom: 1px Solid #ececec;
 }
 
 .social-links {
@@ -163,16 +171,6 @@ p {
 .hero .hero-button:focus {
   background-color: var(--button-background-color);
 }
-
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
-.about {
-  padding-bottom: 94px;
-}
-
 /* Команда */
 
 .section-team {
@@ -228,11 +226,9 @@ p {
 }
 
 .features-list .text {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  margin-bottom: 30px;
 }
 
 /* Можливості */
@@ -272,11 +268,11 @@ p {
 }
 
 .team-list .text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-bottom: 30px;
 }
 
 .team-list .team-item {
@@ -350,7 +346,6 @@ p {
 }
 
 .work-list .text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.8;
   letter-spacing: 0.03em;
@@ -360,10 +355,6 @@ p {
   padding: 20px 24px;
   border: 1px solid #eeeeee;
   border-top: 0;
-}
-
-.work-list-img {
-  margin-bottom: 20px;
 }
 
 li {
@@ -393,7 +384,6 @@ footer {
 .link-footer .link {
   color: var(--primary-whit-color) 60%;
   text-decoration: none;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
