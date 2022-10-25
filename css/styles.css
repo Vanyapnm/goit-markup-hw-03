@@ -60,6 +60,7 @@ p {
 .main-nav {
   display: flex;
   align-items: center;
+  border-bottom: 1px Solid #ececec;
 }
 
 .social-links {
@@ -123,6 +124,8 @@ p {
 .hero {
   background-color: var(--secondary-beckground-color);
   text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .hero .hero-titel {
   color: var(--primary-whit-color);
@@ -152,6 +155,7 @@ p {
   cursor: pointer;
   padding: 10px 32px;
   border-radius: 4px;
+  border: 0;
   min-width: 152px;
 }
 
@@ -166,7 +170,7 @@ p {
 }
 
 .about {
-  margin-bottom: 94px;
+  padding-bottom: 94px;
 }
 
 /* Команда */
@@ -228,6 +232,7 @@ p {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  margin-bottom: 30px;
 }
 
 /* Можливості */
@@ -287,11 +292,11 @@ p {
 .filters {
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
 }
 
 .filters .item:not(:last-child) {
   margin-right: 8px;
-  margin-bottom: 50px;
 }
 
 .filters .filters-button {
@@ -306,6 +311,7 @@ p {
   cursor: pointer;
   padding: 6px 22px;
   border-radius: 4px;
+  border: 0;
 }
 
 .filters .filters-button:hover,
@@ -341,7 +347,6 @@ p {
   line-height: 2;
   letter-spacing: 0.06em;
   margin-bottom: 4px;
-  margin-left: 24px;
 }
 
 .work-list .text {
@@ -349,7 +354,12 @@ p {
   font-size: 16px;
   line-height: 1.8;
   letter-spacing: 0.03em;
-  margin-left: 24px;
+}
+
+.content-box {
+  padding: 20px 24px;
+  border: 1px solid #eeeeee;
+  border-top: 0;
 }
 
 .work-list-img {
@@ -364,6 +374,8 @@ li {
 
 footer {
   background-color: var(--secondary-beckground-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .logo-link-footer {
